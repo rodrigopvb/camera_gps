@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:paddingTop="20pt"
+        android:foregroundGravity="center"
+        android:id="@+id/imThumb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btCamera"
+        android:gravity="center_horizontal"
+        android:layout_below="@id/imThumb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/ic_menu_camera"/>
+
+    <Button
+        android:id="@+id/btMapa"
+        android:gravity="center_horizontal"
+        android:layout_below="@id/btCamera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/ic_dialog_map"/>
+
+</RelativeLayout>
